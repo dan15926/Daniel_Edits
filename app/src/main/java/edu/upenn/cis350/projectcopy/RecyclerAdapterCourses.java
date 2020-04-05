@@ -8,7 +8,7 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class RecyclerAdapterCourses extends RecyclerView.Adapter<RecyclerAdapterCourses.MyViewHolder> {
-    private Course[] mDataset;
+    private Course[] myDataset;
 
     public static class MyViewHolder extends RecyclerView.ViewHolder {
         public TextView courseName;
@@ -19,7 +19,7 @@ public class RecyclerAdapterCourses extends RecyclerView.Adapter<RecyclerAdapter
     }
 
     public RecyclerAdapterCourses(Course[] myDataset) {
-        mDataset = myDataset;
+        myDataset = myDataset;
     }
 
     @Override
@@ -32,12 +32,12 @@ public class RecyclerAdapterCourses extends RecyclerView.Adapter<RecyclerAdapter
 
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
-        holder.courseName.setText(mDataset[position].getCourseName());
+        holder.courseName.setText(myDataset[position].getCourseName());
     }
 
     @Override
     public int getItemCount() {
-        return mDataset.length;
+        return myDataset.length;
     }
 }
 
