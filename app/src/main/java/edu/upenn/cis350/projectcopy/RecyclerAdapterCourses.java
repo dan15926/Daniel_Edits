@@ -19,7 +19,7 @@ public class RecyclerAdapterCourses extends RecyclerView.Adapter<RecyclerAdapter
     }
 
     public RecyclerAdapterCourses(Course[] myDataset) {
-        myDataset = myDataset;
+        this.myDataset = myDataset;
     }
 
     @Override
