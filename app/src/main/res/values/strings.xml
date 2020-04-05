@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ProjectCopy</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="user_name">User Name</string>
+    <string name="energy">100</string>
+    <string name="course_name">Course Name: </string>
+    <string name="welcome_text">Welcome Back</string>
+    <string name="bio_text">Update your bio here</string>
+    <string name="grade_text">Grade: A</string>
+    <string name="your_name">Your Name</string>
+    <string name="change_profile_picture">Change Profile Picture</string>
+    <string name="energy_score_0">Energy Score: 0</string>
+    <string name="completion_percentage_0">Completion Percentage: 0%</string>
+    <string name="go_to_course">Go to Course</string>
+</resources>
